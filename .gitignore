@@ -3,6 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Project files
+*.sln
+*.vcxproj
+*.filters
+
 # User-specific files
 *.rsuser
 *.suo
@@ -17,6 +22,8 @@
 mono_crash.*
 
 # Build results
+[Bb]uild/
+[Bb]uild[Ii]nt/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
